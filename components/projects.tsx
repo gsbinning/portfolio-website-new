@@ -5,6 +5,12 @@ import SectionHeading from "./section-heading";
 import { projectsData } from "@/lib/data";
 import Project from "./project";
 import { useSectionInView } from "@/lib/hooks";
+import Link from "next/link";
+import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+import { HiDownload } from "react-icons/hi";
+import { FaGithubSquare, FaImdb } from "react-icons/fa";
+import { motion } from "framer-motion";
+
 
 export default function Projects() {
   const { ref } = useSectionInView("Projects", 0.5);
@@ -19,6 +25,9 @@ export default function Projects() {
           </React.Fragment>
         ))}
       </div>
+
     </section>
+  
+    
   );
 }

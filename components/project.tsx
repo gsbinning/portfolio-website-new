@@ -4,8 +4,14 @@ import { useRef } from "react";
 import { projectsData } from "@/lib/data";
 import Image from "next/image";
 import { motion, useScroll, useTransform } from "framer-motion";
+import Link from "next/link";
+import { HiDownload } from "react-icons/hi";
+import { FaGithubSquare, FaImdb } from "react-icons/fa";
+import { BsArrowRight, BsLinkedin } from "react-icons/bs";
+
 
 type ProjectProps = (typeof projectsData)[number];
+
 
 export default function Project({
   title,
@@ -47,6 +53,7 @@ export default function Project({
             ))}
           </ul>
         </div>
+        
 
         <Image
           src={imageUrl}
@@ -65,7 +72,13 @@ export default function Project({
 
         group-even:right-[initial] group-even:-left-40"
         />
+
       </section>
+
+  
     </motion.div>
+   
+
+
   );
 }
