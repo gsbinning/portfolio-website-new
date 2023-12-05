@@ -8,6 +8,7 @@ import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import dropbox from "@/public/db.png";
 import ourhouse from "@/public/our-house.png";
+import booking from "@/public/booking.png";
 
 
 export const links = [
@@ -90,6 +91,14 @@ export const projectsData = [
     imageUrl: ourhouse,
    
   },
+  {
+    title: "Booking.com Clone Demo",
+    description:
+      "I worked on creating a booking.com clone for demo purposes.",
+    tags:  ["React", "Javascript", "Oxylabs", "ShadCn", "Next JS 14", "Vercel", "Tailwind"],
+    imageUrl: booking,
+   
+  },
   
 ] as const;
 
@@ -115,4 +124,6 @@ export const skillsData = [
   "Expo",
   "Jest",
   "Framer Motion",
+  "ShadCn",
+  "Oxylabs",
 ] as const;
