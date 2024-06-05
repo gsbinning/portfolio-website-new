@@ -19,28 +19,21 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-         I am a Junior Software Developer graduated from the{" "}
-        <span className="font-medium">Northcoders</span> institute. I decided to pursue my
-        passion for programming and enrol in a coding bootcamp, learning{" "}
-        <span className="font-medium">full-stack web development.</span>{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect and creating apps & websites using my skills. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
+      I am a dedicated Junior Software Developer with a passion for{" "}
+        <span className="font-medium">problem-solving and creating functional,</span> aesthetically pleasing applications. Through the intensive software development programs at{" "}
+        <span className="font-medium">Northcoders and Althaus Digital,</span>{" "}
+        <span className="italic">I have gained expertise in JavaScript, C#, React, Next.js, Node.js, ASP.NET Core, TypeScript, and more.</span> With a background in creative fields, <span className="underline"> I excel</span> in developing innovative solutions.
         is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and Vercel
+        I am always eager to learn new technologies and embrace challenges that foster professional growth.{" "}
         </span>
-        . I am also familiar with TypeScript. I am always looking to
-        learn new technologies I am always looking to challenge myself further and utilise the transferable skills I have developed over my professional and academic career. 
+        I am seeking an entry-level position{" "}
       </p>
 
       <p>
-        <span className="italic">Coming from a creative background</span>, I am naturally attracted to front-end, web & mobile app development. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently looking for an{" "}
-        <span className="font-medium">entry-level full-time position</span> as a software
-        developer mainly front-end.
+        <span className="italic">where I can leverage my creativity,</span>, technical skills,{" "}
+        <span className="font-medium">and dedication to contribute effectively to a dynamic team and excel in the tech industry.</span>
       </p>
     </motion.section>
   );
 }
-

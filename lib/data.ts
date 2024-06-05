@@ -40,36 +40,51 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Software Development Student",
+    location: "Althaus Digital",
+    description:
+      "I am actively engaged in intensive training sessions aimed at acquiring both fundamental and advanced software development skills. Currently, I am in the process of completing the Microsoft Azure Fundamentals course (AZ-900), which is equipping me with comprehensive knowledge and expertise in cloud computing principles and Microsoft Azure services. Additionally, I am pursuing a series of courses on Pluralsight to further enhance my skill set. Effectively managing my time, I balance coursework, projects, and self-study, ensuring productivity and progress. Furthermore, I demonstrate a knack for adapting quickly to new technologies and programming languages introduced during the boot camp, such as C# & ASP.Net.",
+    icon: React.createElement(LuGraduationCap),
+    date: "April 2024 - June 2024",
+  },
+  {
     title: "Roto & Prep Artist",
     location: "Cinesite , London (Remote)",
     description:
-      "I worked as a Roto & Prep artist for 1 year. Creating roto mattes for Compositors within tight deadlines. I had to have a high level of concentration as I worked on challenging shots such as hair, fur, intricate details and heavy motion blur. Shots ranged from actors, objects to complex background sceneries. The projects I worked on include Witcher S3 (Netflix), Hijack (AppleTV+), The Family Plan (AppleTV+), Our Man from Jersey. My Skills include Nuke, Mocha Pro and Silhoutte FX",
+      "I worked at Cinesite as a Roto & Prep Artist for 1 year, where I specialized in creating roto mattes for compositors under tight deadlines. This role required a high level of concentration, particularly when working on challenging shots involving hair, fur, intricate details, and heavy motion blur. The scope of my work included actors, objects, and complex background sceneries. Notable projects I contributed to include The Witcher Season 3 (Netflix), Hijack (AppleTV+), The Family Plan (AppleTV+), and Our Man from Jersey. My technical skills include proficiency in Nuke, Mocha Pro, and Silhouette FX.",
     icon: React.createElement(FaRegFileVideo),
-    date: "2022 - 2023",
+    date: "August 2022 - September 2023",
   },
   {
-    title: "Trainee Software Developer",
+    title: "Full Stack Coding Bootcamp Student",
     location: "Northcoders, Remote",
     description:
-      "I learned the fundamentals of full-stack software development and the best practises of programming in a 13 week coding bootcamp. I worked with API’s, databases, covered express.js, node.js and SQL. I also learnt version control with github,  pair programming, TDD with jest and supertest. A big achievement was working in a group of 5 to create a fully functioning mobile app called Our House. We achieved this collectively using Firebase for backend and React Native & Expo for frontend. I primarily worked on the front end of this app",
+      "At Northcoders, I completed an intensive 13-week coding bootcamp where I mastered full-stack software development fundamentals. I gained hands-on experience with APIs, databases, Express.js, Node.js, and SQL, and developed proficiency in version control with GitHub, pair programming, and Test-Driven Development (TDD) using Jest and Supertest. A key achievement was collaborating in a team of five to create a fully functional mobile app, Our House, using Firebase for the backend and React Native & Expo for the frontend. My primary focus on front-end development showcased my strong problem-solving skills and commitment to delivering reliable code.",
     icon: React.createElement(LuGraduationCap),
-    date: "2022",
+    date: "April 2022- July 2022",
     
   },
   {
     title: "Paint & Roto Artist",
     location: "Framestore, London",
-    description: "I worked as a Roto & Prep artist for 4 years and 1 year as a runner. I worked mainly on films throughout my time here working to very fine details. My projects include Avengers: End game, Beast, Christopher Robin, Pokemon: Detective Pikachu Fantastic Beast (The Crimes Of Grindelwald), Fast & Furious: Hobbs & Shaw, Project Power (Netflix), The Midnight Sky, Tom & Jerry: The Movie, A Boy Called Christmas, The Matrix Resurrections, The King’s Man, Lockwood & Co (Netflix).  ",
+    description: "I worked as a Roto & Prep Artist for four years and as a runner for one year, during which I was promoted to Head Runner within 10 months, showcasing exceptional leadership and organizational skills. Throughout my tenure, I collaborated seamlessly with cross-functional teams, working closely with compositors and animators to achieve high-quality visuals. I successfully tackled complex paint and rotoscoping issues, demonstrating adaptability and creative problem-solving. Efficiently managing my time and prioritizing tasks to meet project deadlines, I consistently showcased strong time management skills and the ability to work well under pressure. My projects include high-profile films such as Avengers: Endgame, The Matrix Resurrections, Beast, Christopher Robin, Pokémon: Detective Pikachu, Fantastic Beasts: The Crimes of Grindelwald, Fast & Furious: Hobbs & Shaw, Project Power (Netflix), The Midnight Sky, Tom & Jerry: The Movie, A Boy Called Christmas, The King’s Man, and Lockwood & Co (Netflix)",
     icon: React.createElement(FaRegFileVideo),
-    date: "2017 - 2022",
+    date: " February 2017 - March 2022",
   },
   {
-    title: "Student",
+    title: "2D Compositing for Visual Effects Student",
     location: "Escape Studios, London",
     description:
-      "I studied 2D compositing for Visual effects. Modules included: Rotoscoping, camera tracking (2D & 3D), rig removal, 3D projection system, colour balance and more",
+      "I undertook a comprehensive study in 2D compositing for Visual Effects, encompassing a range of modules including Rotoscoping, Camera Tracking (2D & 3D), Rig Removal, 3D Projection Systems, Color Balancing, and other relevant topics.",
     icon: React.createElement(LuGraduationCap),
-    date: "2016",
+    date: "March 2016 - July 2016",
+    
+  },
+  {
+    title: "BA Hons Animation",
+    location: "University Of Wolverhampton, Wolverhampton",
+    icon: React.createElement(LuGraduationCap),
+    date: "September 2010 - June 2013",
     
   },
 ] as const;
@@ -78,7 +93,7 @@ export const projectsData = [
   {
     title: "Dropbox Clone",
     description:
-      "I worked on making a dropbox clone as a personal project to help me practise full stack development. ",
+      "As part of my personal portfolio, I replicated the Dropbox platform, showcasing my proficiency in full-stack development. ",
     tags: ["React", "Next.js", "Firebase", "Tailwind", "Shadcn", "Clerk", "Typescript", "CRUD", "Vercel"],
     imageUrl: dropbox,
     
@@ -86,7 +101,7 @@ export const projectsData = [
   {
     title: "Our House",
     description:
-      "Our House is a social app which makes enjoyable the process of delegating chores. This was my final group project with Northcoders.",
+      "Our House represents the pinnacle of my collaboration at Northcoders—a social app crafted to facilitate and elevate the chore delegation experience.",
     tags:  ["React", "Javascript", "Firebase", "Expo", "Node.js", "React Native", "Cloud Firestore"],
     imageUrl: ourhouse,
    
@@ -94,7 +109,7 @@ export const projectsData = [
   {
     title: "Booking.com Clone Demo",
     description:
-      "I worked on creating a booking.com clone for demo purposes.",
+      "I dedicated efforts to crafting a replica of Booking.com for demonstration purposes.",
     tags:  ["React", "Javascript", "Oxylabs", "ShadCn", "Next JS 14", "Vercel", "Tailwind"],
     imageUrl: booking,
    
@@ -103,20 +118,30 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
+  "C#",
+  ".Net Core",
+  "ASP.Net",
+  ".Net 6+",
+  "OOP",
+  "HTML5",
+  "CSS",
   "TypeScript",
+  "Visual Studio",
+  "Visual Studio Code",
   "React",
   "React Native",
+  "SQL",
+  "MySQL",
   "Next.js",
   "Node.js",
   "Github",
+  "Git",
   "Tailwind",
   "Redux",
   "GraphQL",
   "Apollo",
-  "Express",
+  "Express.js",
   "PostgreSQL",
   "Firebase",
   "Sanity",

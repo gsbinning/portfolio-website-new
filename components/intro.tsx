@@ -34,7 +34,7 @@ export default function Intro() {
             }}
           >
             <img
-            src="https://media.licdn.com/dms/image/D4E03AQE7weg36oR5aA/profile-displayphoto-shrink_800_800/0/1710252044023?e=1717027200&v=beta&t=5cHIMmnkHphOBtrZ3BM7G5ffVBLT3yxqnGsLSEPzXTE"
+            src="https://media.licdn.com/dms/image/D4E03AQE7weg36oR5aA/profile-displayphoto-shrink_800_800/0/1710252044023?e=1723075200&v=beta&t=JO2-KHkeusgqTrjrKJIFQvTMuAjoEFE2l5WPfCxZ820"
             alt="Gugandeep portrait"
               width="192"
               height="192"
@@ -66,7 +66,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="tracking-[15px] text-sm uppercase text-gray-500 pb-2">Software Developer</span> {" "}
+        <span className="tracking-[15px] text-sm uppercase text-gray-500 pb-2">Junior Software Developer</span> {" "}
         <div><span className=" text-3xl font-medium mb-8 text-center tracking-[15px] uppercase">Gugandeep Binning</span> </div>
         
     
@@ -80,17 +80,7 @@ export default function Intro() {
           delay: 0.1,
         }}
       >
-        <Link
-          href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
-          onClick={() => {
-            setActiveSection("Contact");
-            setTimeOfLastClick(Date.now());
-          }}
-        >
-          Get in touch{" "}
-          <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
-        </Link>
+       
 
      
         <a
