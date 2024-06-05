@@ -80,13 +80,7 @@ export const experiencesData = [
     date: "March 2016 - July 2016",
     
   },
-  {
-    title: "BA Hons Animation",
-    location: "University Of Wolverhampton, Wolverhampton",
-    icon: React.createElement(LuGraduationCap),
-    date: "September 2010 - June 2013",
-    
-  },
+ 
 ] as const;
 
 export const projectsData = [
